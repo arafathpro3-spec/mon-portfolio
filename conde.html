@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condé Medical Kits | Accueil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon"type="image/png"href="42559.png">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <nav class="bg-gray-800 shadow-lg sticky top-0 z-50 px-4 py-3">
+    <div class="container mx-auto flex justify-between items-center">
+        
+        <div class="flex flex-col items-start">
+            <a href="index.html" class="transition-transform hover:scale-105">
+                <img src="42559.png" alt="Logo CMK" class="h-10 md:h-14 w-auto">
+            </a>
+            <span class="text-[9px] text-blue-400 font-bold mt-1 md:hidden tracking-tighter uppercase">
+                Excellence & Santé
+            </span>
+        </div>
+
+        <div class="hidden md:flex space-x-6 lg:space-x-8 items-center text-sm font-medium">
+            <a href="index.html" class="hover:text-blue-400 transition">Accueil</a>
+            <a href="appareils.html" class="hover:text-blue-400 transition">Appareils</a>
+            <a href="habillement.html" class="hover:text-blue-400 transition">Habillement</a>
+            <a href="kits.html" class="hover:text-blue-400 transition">Kits</a>
+            
+            <a href="devis.html" class="bg-blue-600 px-6 py-2 rounded-full font-bold relative hover:bg-blue-500 transition shadow-lg shadow-blue-900/20">
+                Devis
+                <span id="compteur-devis" class="absolute -top-2 -right-1 bg-orange-500 text-white text-[10px] w-5 h-5 flex items-center justify-center rounded-full hidden">0</span>
+            </a>
+        </div>
+
+        <div class="md:hidden flex items-center space-x-4">
+            <a href="devis.html" class="text-blue-400">
+                <i class="fas fa-file-invoice text-xl"></i>
+            </a>
+            <button class="text-gray-300">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+
+    </div>
+</nav>
+
+    <section class="relative py-24 px-6 text-center bg-gradient-to-b from-gray-800 to-gray-900">
+        <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">
+            L'Excellence Technique <br>
+            <span class="text-blue-500 text-4xl md:text-6xl">au Service de la Santé</span>
+        </h1>
+        <p class="text-gray-400 max-w-2xl mx-auto text-lg mb-10">
+            Fournisseur de matériel médical de pointe, de tenues ergonomiques et de kits stériles pour les professionnels du bloc opératoire.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="appareils.html" class="bg-blue-600 hover:bg-blue-500 px-8 py-4 rounded-xl font-bold text-lg transition">Voir le Catalogue</a>
+            <a href="#engagements" class="bg-gray-700 hover:bg-gray-600 px-8 py-4 rounded-xl font-bold text-lg transition">Nos Engagements</a>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold text-center mb-16">Nos Solutions Médicales</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <a href="appareils.html" class="group bg-gray-800 p-8 rounded-3xl border border-gray-700 hover:border-blue-500 transition shadow-xl">
+                <div class="text-blue-500 text-4xl mb-6"><i class="fas fa-microscope"></i></div>
+                <h3 class="text-2xl font-bold mb-4">Appareils</h3>
+                <p class="text-gray-400 mb-6">Équipements de diagnostic et moniteurs haute précision pour cliniques.</p>
+                <span class="text-blue-400 font-bold group-hover:underline">Découvrir →</span>
+            </a>
+
+            <a href="habillement.html" class="group bg-gray-800 p-8 rounded-3xl border border-gray-700 hover:border-blue-500 transition shadow-xl">
+                <div class="text-blue-500 text-4xl mb-6"><i class="fas fa-user-md"></i></div>
+                <h3 class="text-2xl font-bold mb-4">Habillement</h3>
+                <p class="text-gray-400 mb-6">Blouses et tuniques antibactériennes conçues pour le confort prolongé.</p>
+                <span class="text-blue-400 font-bold group-hover:underline">Découvrir →</span>
+            </a>
+
+            <a href="kits.html" class="group bg-gray-800 p-8 rounded-3xl border border-gray-700 hover:border-blue-500 transition shadow-xl">
+                <div class="text-blue-500 text-4xl mb-6"><i class="fas fa-briefcase-medical"></i></div>
+                <h3 class="text-2xl font-bold mb-4">Kits</h3>
+                <p class="text-gray-400 mb-6">Packs complets pour étudiants et chirurgiens, prêts à l'usage.</p>
+                <span class="text-blue-400 font-bold group-hover:underline">Découvrir →</span>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="engagements" class="bg-blue-600 py-16">
+        <div class="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div class="text-4xl font-black italic">100%</div>
+                <div class="text-sm uppercase font-bold opacity-80">Qualité Certifiée</div>
+            </div>
+            <div>
+                <div class="text-4xl font-black italic">24h</div>
+                <div class="text-sm uppercase font-bold opacity-80">Devis Rapide</div>
+            </div>
+            <div>
+                <div class="text-4xl font-black italic">Sous région</div>
+                <div class="text-sm uppercase font-bold opacity-80">Livraison Locale</div>
+            </div>
+            <div>
+                <div class="text-4xl font-black italic">50000+</div>
+                <div class="text-sm uppercase font-bold opacity-80">Clients Satisfaits</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-gray-800 mt-20 text-center">
+        <p class="text-gray-500 mb-4">&copy; 2026 Condé Medical Kits. Excellence et Santé.</p>
+        <div class="flex justify-center gap-6 text-gray-400">
+            <a href="#" class="hover:text-white"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="hover:text-white"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/22792879219" class="hover:text-green-500"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        function mettreAJourCompteur() {
+            let panier = JSON.parse(localStorage.getItem('monDevis')) || [];
+            let badge = document.getElementById('compteur-devis');
+            if (panier.length > 0) {
+                badge.innerText = panier.length;
+                badge.classList.remove('hidden');
+            }
+        }
+        window.onload = mettreAJourCompteur;
+    </script>
+
+</body>
+</html>
